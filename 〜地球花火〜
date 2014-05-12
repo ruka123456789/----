@@ -1,3 +1,4 @@
+PShape particles;
 PImage sprite;  
 
 int npartTotal = 10000;
