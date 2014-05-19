@@ -1,0 +1,16 @@
+float x, y;
+void setup() {
+  size(800, 700);
+  x = 0;
+  y = height/2; 
+}
+
+void draw() {
+  background(#FF0000);
+  x += 100;
+  if (x > width) { 
+    x = -10;
+    y = random(width - 10); 
+  }
+  rect(x, y, 300, 300);
+}
